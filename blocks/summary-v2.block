@@ -1,0 +1,42 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    =>
+
+
+        AUTOCOLUMNS, CAROUSEL, LIST, AUTOGRID
+        blockId:                        string
+        collection:                     object
+        columnWidth:                    string
+        design:                         string
+        enableProductQuickView:         boolean
+        filter:                         object
+        gutter:                         string
+        headerText:                     string
+        imageAspectRatio:               string
+        items:                          array
+        listImageAlignment:             string
+        listImageSize:                  string
+        metadataPosition:               string
+        primaryMetadata:                string
+        productQuickViewEnabled:        boolean
+        secondaryMetadata:              string
+        showExcerpt:                    boolean
+        showPastOrUpcomingEvents:       string
+        showPrice:                      boolean
+        showReadMoreLink:               boolean
+        showThumbnail:                  boolean
+        showTitle:                      boolean
+        slidesPerRow:                   string
+        textAlignment:                  string
+        textSize:                       string
+        website:                        object
+###############################################################################}
+
+
+<script>
+    console.log( "summary-v2", {@|json-pretty} );
+</script>

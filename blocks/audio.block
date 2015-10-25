@@ -1,0 +1,25 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    =>
+
+
+        audioAssetDuration:     number
+        audioAssetLength:       string
+        audioAssetMimeType:     string
+        audioAssetUrl:          string
+        author:                 string
+        collection:             object
+        colorTheme:             string
+        designStyle:            string
+        showDownload:           boolean
+        title:                  string
+###############################################################################}
+
+
+<script>
+    console.log( "audio", {@|json-pretty} );
+</script>

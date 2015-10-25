@@ -1,0 +1,3 @@
+<script>
+    console.log( "tourdates", {@|json-pretty} );
+</script>

@@ -1,0 +1,35 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    =>
+
+
+        accounts:               array
+
+            ACCOUNT MODEL =>
+            addedOn:            number
+            iconEnabled:        boolean
+            iconUrl:            string
+            profileUrl:         string
+            screenname:         string
+            serviceId:          number
+            serviceName:        string
+            userId:             string
+            userName:           string
+            collectionId:       string
+            metaData:           object
+
+        iconAlignment:          string
+        iconColor:              string
+        iconSize:               string
+        iconStyle:              string
+        type:                   number
+###############################################################################}
+
+
+<script>
+    console.log( "socialaccountlinks-v2", {@|json-pretty} );
+</script>

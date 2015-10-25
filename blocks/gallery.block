@@ -1,0 +1,78 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    Available options properties depend on which gallery type is rendering
+    Option values that are null have an unknown data type to me as of yet
+    options: =>
+
+
+        SLIDESHOW
+        aspectRatio:            null
+        auto-crop:              boolean
+        autoplay:               boolean
+        collectionId:           string
+        controls:               boolean
+        design:                 string
+        existingGallery:        null
+        floatDir:               null
+        hSize:                  null
+        meta-position:          string
+        methodOption:           string
+        show-meta:              boolean
+        show-meta-on-hover:     boolean
+        thumbnails:             boolean
+        transientGalleryId:     string
+        vSize:                  null
+
+
+        SLIDER
+        active-alignment:       string
+        autoplay:               boolean
+        collectionId:           string
+        controls:               boolean
+        design:                 string
+        existingGallery:        null
+        floatDir:               null
+        hSize:                  null
+        methodOption:           string
+        transientGalleryId:     string
+        vSize:                  null
+
+
+        GRID
+        aspect-ratio:           string
+        aspectRatio:            null
+        collectionId:           string
+        design:                 string
+        existingGallery:        null
+        floatDir:               null
+        hSize:                  null
+        lightbox:               boolean
+        methodOption:           string
+        padding:                number
+        square-thumbs:          boolean
+        thumbnails-per-row:     number
+        transientGalleryId:     string
+        vSize:                  null
+
+
+        STACKED
+        aspectRatio:            null
+        collectionId:           string
+        design:                 string
+        existingGallery:        null
+        floatDir:               null
+        hSize:                  null
+        methodOption:           string
+        show-meta-basic:        boolean
+        transientGalleryId:     string
+        vSize:                  null
+###############################################################################}
+
+
+<script>
+    console.log( "gallery", {@|json-pretty} );
+</script>

@@ -1,0 +1,32 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    Available options properties depend on which summary type is rendering
+    Option values that are null have an unknown data type to me as of yet
+    =>
+
+
+        buttonAlignment:                string
+        collection:                     object
+        collectionId:                   string
+        formFields:                     array
+        formId:                         string
+        formName:                       string
+        formPreSubmitTopics:            null
+        formSubmissionHTML:             string
+        formSubmissionMessage:          object
+        formSubmitButtonText:           string
+        formUsePreSubmit:               boolean
+        lightboxHandleText:             string
+        secureUrl:                      string
+        showTitle:                      boolean
+        useLightbox:                    boolean
+###############################################################################}
+
+
+<script>
+    console.log( "form", {@|json-pretty} );
+</script>

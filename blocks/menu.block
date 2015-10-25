@@ -1,0 +1,22 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    Available options properties depend on which summary type is rendering
+    Option values that are null have an unknown data type to me as of yet
+    =>
+
+
+        blockId:                string
+        currencySymbol:         string
+        menuStyle:              string
+        menus:                  array
+        randUID:                string
+###############################################################################}
+
+
+<script>
+    console.log( "menu", {@|json-pretty} );
+</script>

@@ -1,0 +1,34 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    info: =>
+
+
+        altText:                            string
+        description:                        boolean
+        hasAspectRatio:                     boolean
+        hasDescription:                     boolean
+        hasPercentageWidth:                 boolean
+        hasRatio:                           boolean
+        imageWidth:                         number
+        imageWidthPercentage:               number
+        isLightBox:                         boolean
+        isLinkTo:                           boolean
+        isVSize:                            boolean
+        layout:                             string
+        linkTo:                             string
+        newwindow:                          boolean
+        ratio:                              float
+        showCaption:                        boolean
+        src:                                string
+        stretch:                            boolean
+        textWidthPercentage:                number
+###############################################################################}
+
+
+<script>
+    console.log( "image", {@|json-pretty} );
+</script>

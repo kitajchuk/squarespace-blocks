@@ -1,0 +1,24 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    =>
+
+
+        BAR: 1009, LINE: 1010, PIE: 1011
+        caption:            string
+        chartType:          number
+        dataTable:          object
+        flip:               boolean
+        legend:             string
+        palette:            string
+        title:              string
+        type:               number
+###############################################################################}
+
+
+<script>
+    console.log( "chart", {@|json-pretty} );
+</script>

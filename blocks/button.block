@@ -1,0 +1,22 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    =>
+
+
+        buttonAlignment:        string
+        buttonLink:             string
+        buttonSize:             string
+        buttonText:             string
+        collection:             object
+        medium:                 boolean
+        newWindow:              boolean
+###############################################################################}
+
+
+<script>
+    console.log( "button", {@|json-pretty} );
+</script>

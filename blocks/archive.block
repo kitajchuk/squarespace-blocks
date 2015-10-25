@@ -1,0 +1,28 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    =>
+
+
+        INDEX, LIST, DROPDOWN
+        blockId:                    string
+        collectionUrlId:            string
+        dropdownTitle:              string
+        groupBy:                    string
+        groups:                     object
+        hasNoCollection:            boolean
+        isDeletedCollection:        boolean
+        layout:                     string
+        multiColumns:               boolean
+        showCount:                  boolean
+        showDate:                   boolean
+        type:                       number
+###############################################################################}
+
+
+<script>
+    console.log( "archive", {@|json-pretty} );
+</script>
