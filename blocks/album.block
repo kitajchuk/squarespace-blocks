@@ -1,0 +1,20 @@
+{###############################################################################
+    BLOCK OVERRIDE
+    This file, in conjunction with its `.conf` file,
+    are overriding the Squarespace system default rendering for this block type.
+
+    OBJECT MODEL
+    =>
+
+
+        collection:                 object
+        firstItem:                  object
+        id:                         string
+        items:                      array
+        options:                    object
+###############################################################################}
+
+
+<script>
+    console.log( "album", {@|json-pretty} );
+</script>

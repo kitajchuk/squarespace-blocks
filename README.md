@@ -28,6 +28,7 @@ A quick note about the `blocks`. I did my best to comment each block and they ev
 
 
 #### Unlocked
+- album
 - quote
 - image
 - audio
@@ -55,7 +56,6 @@ A quick note about the `blocks`. I did my best to comment each block and they ev
 - text
 - markdown
 - video
-- album / playlist
 - embed
 - spacer
 - horizontalrule
